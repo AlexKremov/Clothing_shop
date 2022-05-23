@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+}
+.brand-header {
+  background-color: #f8f8f8;
+}
+li {
+  list-style-type: none;
+}
+
+.top-bar ul {
+  display: inline-block;
+  list-style: none;
+}
+
+.top-bar {
+  height: 45px;
+  background-color: #363636;
+}
+
+select,
+label {
+  background-color: transparent;
+  color: #767676;
+  border: none;
+}
+
+.log li a:hover {
+  color: #70c7c7;
+}
+.reg li a:hover {
+  color: #70c7c7;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: #767676;
+}
+.empty {
+  float: right;
+  margin-right: 20%;
+}
+.currency {
+  float: left;
+  margin-left: 15%;
+  margin-right: 35%;
+}
+.top-bar a {
+  color: #767676;
+}
+
+.header-navigation {
+  margin-top: 40px;
+  margin-left: 3%;
+}
+
+.header-body {
+  display: inline-flex;
+  width: 100%;
+  height: 110px;
+}
+.submenu li:last-child a {
+  border-bottom: none;
+}
+.topmenu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.topmenu > li:hover .submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+.submenu-link:hover {
+  color: #70c7c7;
+}
+.submenu-link {
+  font-weight: bold;
+}
+
+.local-stores,
+.the-brand {
+  font-weight: bold;
+  margin: 0 30px;
+}
+
+.local-stores:hover {
+  color: #70c7c7;
+}
+.the-brand:hover {
+  color: #70c7c7;
+}
+
+.submenu {
+  transform: scaleY(0);
+  transform-origin: 0 0;
+}
+
+.header-logo {
+  margin-right: 21%;
+}
+
+.search {
+  background-color: #f8f8f8;
+}
+
+.search input {
+  margin-top: 15px;
+  background-image: url(https://www.pngarea.com/pngm/109/1164446_searchicon-png-search-icon-png-download.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  outline: 0;
+  background-position: right;
+  background-size: 18px;
+  border-style: solid;
+}
+
+.company-slogan {
+  background-image: url(./image/brand-intro.png);
+  height: 450px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: white;
+}
+
+h1 {
+  padding-top: 150px;
+  font-size: 50px;
+}
+
+.brand-content {
+  display: inline-flex;
+  margin-top: 60px;
+  color: #767676;
+}
+.brand-column1 {
+  margin-left: 10%;
+}
+.brand-column2 {
+  margin-right: 10%;
+}
+
+.brand-img1 {
+  margin-bottom: 40px;
+}
+.brand-img3 {
+  margin-top: 30px;
+}
+.brand-img4 {
+  margin-top: 80px;
+}
+
+.footer-navigation {
+  display: inline-flex;
+  width: 90%;
+  margin-left: 7%;
+}
+
+.parag {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #f8f8f8;
+  margin-top: 100px;
+}
+.footer-section {
+  padding-top: 50px;
+}
+a {
+  text-decoration: none;
+}
+
+.footer-navigation ul li {
+  list-style: none;
+  color: #767676;
+  margin: 8px 0 8px 0;
+}
+
+.footer-navigation ul li a {
+  text-decoration: none;
+  color: #767676;
+}
+
+.footer-navigation li a:hover {
+  color: #70c7c7;
+}
+
+.footer-lookbook,
+.footer-info,
+.footer-buy,
+.footer-account,
+.footer-contact {
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.banner1,
+.banner2 {
+  width: 570px;
+  height: 200px;
+}
+
+.banner1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 0;
+  background-color: #363636;
+  margin-right: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.winner {
+  font-size: 40px;
+  font-weight: 600;
+}
+.award2016 {
+  font-size: 42px;
+  font-weight: 400;
+}
+.banner2 {
+  background-color: #70c7c7;
+  margin-left: 20px;
+}
+.footer-banners {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 50px 0;
+}
+
+.copyright {
+  display: flex;
+  flex-flow: row wrap;
+  height: 45px;
+  background-color: #363636;
+  color: #767676;
+  justify-content: space-around;
+}
+.develop {
+  display: flex;
+  flex-flow: row wrap;
+}
+.dev {
+  padding-left: 50px;
+}
